@@ -18,9 +18,12 @@ for (let i = 0; i < 6; i++) {
             petHappiness += 2;
             petEnergy -= 1;        
         }
-    } /* else if (actionTaken != actions[0,1,2]) {
-        alert("Please only choose feed, pet or walk for " + petName +"!");
+        
+    }   /* MY ATTEMPT TO SOLVE FOR A USER NOT ENTERING ONE OF THE THREE ACTION ITEMS
+    
+        else if (actionTaken != actions[0,1,2]) {
+            alert("Please only choose feed, pet or walk for " + petName +"!");
         i-- ;
-    } */
+        } */
 };
 console.log(petName + " has " + petHappiness + " happiness and " + petEnergy + " energy.");
